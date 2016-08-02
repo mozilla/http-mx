@@ -7,7 +7,7 @@ use List::Util qw(min);
 use HTTP::Date qw(time2str);
 use HTTP::Status qw(:constants status_message);
 
-use constant NAMESERVERS => [qw(8.8.8.8 8.8.4.4)];
+use constant NAMESERVERS => [qw(127.0.0.1)];
 use constant TIMEOUT => 10;
 
 #Keep on one line to keep CPAN and friends happy
